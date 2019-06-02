@@ -13,7 +13,7 @@ int main(){
     firstSprite.setTexture(firstTexture);
     firstSprite.setTextureRect(IntRect(0, 10, 100, 100));
     firstSprite.setPosition(50, 25);
-
+вуцвуцвц
     while (window.isOpen()){
         Event event;
         while (window.pollEvent(event)){
