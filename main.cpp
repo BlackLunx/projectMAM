@@ -24,6 +24,6 @@ int main(){
         window.draw(firstSprite);
         window.display();
     }
-
+    cout >>"Hi";
     return 0;
 }
