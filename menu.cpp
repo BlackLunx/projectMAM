@@ -39,11 +39,11 @@ void menu(RenderWindow &window){
                 exit(0);
             }
         }
-        if(IntRect(800, 200, 950, 240).contains(Mouse::getPosition(window))){
+        if(IntRect(800, 200, 150, 40).contains(Mouse::getPosition(window))){
             currentPosition = 1;
             cursorSP.setPosition(static_cast<Vector2f>(Mouse::getPosition(window)));
         }
-        if(IntRect(800, 260, 950, 300).contains(Mouse::getPosition(window))){
+        if(IntRect(800, 260, 150, 40).contains(Mouse::getPosition(window))){
             currentPosition = 2;
             cursorSP.setPosition(static_cast<Vector2f>(Mouse::getPosition(window)));
         }
@@ -123,7 +123,7 @@ void selectLevel(RenderWindow& window){
 
 
         for(int i = 0;i < 4;i++){
-            if(IntRect(800, 200 + i * 60, 800, 200 + i * 100).contains(Mouse::getPosition(window))){
+            if(IntRect(800, 200 + i * 60, 150, 40).contains(Mouse::getPosition(window))){
                 isHere[i] = 1;
                 cursorSP.setPosition(static_cast<Vector2f>(Mouse::getPosition(window)));
             }
