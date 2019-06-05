@@ -1,29 +1,53 @@
-#include <SFML/Graphics.hpp>
-using namespace sf;
-int main(){
+#include <iostream>
+#include <fstream>
+#include <vector>
+using namespace std;
+int main() {
+    ifstream fin;
+    fin.open("2.txt");
+    int sizex, sizey;
 
-    RenderWindow window(VideoMode(480, 360), "SFML works!");
-    Image  firstImage;
-    firstImage.loadFromFile("Images/lol.jpg");
-
-    Texture firstTexture;
-    firstTexture.loadFromImage(firstImage);
-
-    Sprite firstSprite;
-    firstSprite.setTexture(firstTexture);
-    firstSprite.setTextureRect(IntRect(0, 10, 100, 100));
-    firstSprite.setPosition(50, 25);
-
-    while (window.isOpen()){
-        Event event;
-        while (window.pollEvent(event)){
-            if (event.type == Event::Closed)
-                window.close();
+    vector <vector<int> > horisontal(sizey);
+    fin >> sizex >> sizey;
+    char desk [sizey][sizex];
+    int n = 0;
+    for (int i = 0; i < sizey; i ++){
+        for (int j = 0; j < sizex; j ++) {
+            fin >> desk[i][j];
+            if (desk[i][j] == '1'){
+                n ++;
+            }
+            else if (n != 0){
+                horisontal[i].push_back(n);
+                cout << horisontal[i].back() << ' ';
+                n = 0;
+            }
+            if ((n != 0)&&(j == (sizex - 1))){
+                horisontal[i].push_back(n);
+                cout << horisontal[i].back()<<' ';
+                n = 0;
+            }
         }
-        window.clear();
-        window.draw(firstSprite);
-        window.display();
+        cout << endl;
     }
-
+    n = 0;
+    vector <vector<int>> vertical(sizex);
+    for (int i = 0; i < sizex; i ++) {
+        for (int j = 0; j < sizey; j++) {
+            if (desk[j][i] == '1') {
+                n++;
+            } else if (n != 0) {
+                vertical[i].push_back(n);
+                cout << vertical[i].back()<<' ';
+                n = 0;
+            }
+            if ((n != 0) && (j == (sizey - 1))) {
+                vertical[i].push_back(n);
+                cout << vertical[i].back()<<' ';
+                n = 0;
+            }
+        }
+        cout << endl;
+    }
     return 0;
 }
