@@ -83,7 +83,7 @@ void menu(RenderWindow &window){
 void selectLevel(RenderWindow& window){
 
     Texture backgroundTX, cursorTX;
-    backgroundTX.loadFromFile("background.png");
+    backgroundTX.loadFromFile("Images/levelMenu.png");
     cursorTX.loadFromFile("Images/cursor.png");
 
     std::vector<Texture> textures(8);
@@ -94,10 +94,10 @@ void selectLevel(RenderWindow& window){
     textures[3].loadFromFile("Images/mediumSecond.png");
 
     textures[4].loadFromFile("Images/hardFirst.png");
-    textures[5].loadFromFile("Images/hardSecond");
+    textures[5].loadFromFile("Images/hardSecond.png");
 
-    textures[6].loadFromFile("Images/backFirst");
-    textures[7].loadFromFile("Images/backSecond");
+    textures[6].loadFromFile("Images/backFirst.png");
+    textures[7].loadFromFile("Images/backSecond.png");
 
     Sprite background(backgroundTX), cursorSP(cursorTX);
 
@@ -133,7 +133,7 @@ void selectLevel(RenderWindow& window){
                 //startGame(window, i);
             }
             if(isHere[3]){
-                window.close();
+                return;
             }
         }
         window.clear();
@@ -149,6 +149,9 @@ void selectLevel(RenderWindow& window){
             }
         }
         window.setMouseCursorVisible(!wasInButton);
+        if(wasInButton){
+            window.draw(cursorSP);
+        }
         window.display();
     }
 
