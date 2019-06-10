@@ -95,6 +95,10 @@ void startGame(RenderWindow &window,int level){
     back1.loadFromFile("Images/backFirst.png");
     back2.loadFromFile("Images/backSecond.png");
 
+    Texture gameTX;
+    gameTX.loadFromFile("Images/gameOver.png");
+    Sprite game(gameTX);
+    game.setPosition(270, 230);
     Sprite back_1(back1), back_2(back2);
     Texture field, blackElement, crossElement;
     field.loadFromFile("Images/field30x30.png");
@@ -226,6 +230,9 @@ void startGame(RenderWindow &window,int level){
             }
         }
         if(can) {
+            window.clear();
+            window.draw(game);
+            window.display();
             sleep(seconds(2));
             return;
         }
