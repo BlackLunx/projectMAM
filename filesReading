@@ -1,0 +1,57 @@
+window.setMouseCursorVisible(1);
+    string path = "tests/";
+    switch (level){
+        case 0:
+            path += "easy/";
+            break;
+        case 1:
+            path += "normal/";
+            break;
+        case 2:
+            path += "hard/";
+            break;
+        default:
+            return;
+    }
+    mt19937 gen;
+    gen.seed('J' + 'O' + 'P' + 'A' + time(0));
+    int newNum = gen() % 15 + 1;
+    path += toString(newNum) + ".txt";
+    auto newVectors = generateLevel(path);
+    Texture backgroundTX, cursorTX;
+    backgroundTX.loadFromFile("Images/levelMenu.png");
+    cursorTX.loadFromFile("Images/cursor.png");
+
+    Texture back1, back2;
+    back1.loadFromFile("Images/backFirst.png");
+    back2.loadFromFile("Images/backSecond.png");
+
+    Sprite back_1(back1), back_2(back2);
+    Texture field, blackElement, crossElement;
+    field.loadFromFile("Images/field30x30.png");
+    vector<vector<int> > fieldArr(30, vector<int>(30, 0));
+    blackElement.loadFromFile("Images/blackElement.png");
+    crossElement.loadFromFile("Images/crossElement.png");
+    Texture numbers;
+    numbers.loadFromFile("Images/numbers.png");
+    back_1.setPosition(40, 40);
+    back_2.setPosition(40, 40);
+    Sprite fieldSP(field), black(blackElement), cross(crossElement), background(backgroundTX), cursor(cursorTX);
+    Sprite numb(numbers);
+    int X = 300, Y = 200;
+    fieldSP.setPosition(X, Y);
+    int n = desk.size(), m = desk[0].size();
+    swap(n, m);
+    swap(maxx, maxy);
+    vector<vector<int> > draws(n, vector<int>(m, 0));
+    fieldSP.setTextureRect(IntRect((5 - maxx) * 23 + 1,(5 - maxy) * 20 + 1, (n + 5) * 23 - (5 - maxx) * 23 , (m + 5) * 20 - (5 - maxy) * 20));
+    while(window.isOpen()){
+        Event event;
+        while (window.pollEvent(event)){
+            if (event.type == Event::Closed){
+                window.close();
+                exit(0);
+            }
+        }
+        bool inBack = 0;
+        window.clear();
