@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/zhele/CLionProjects/projectMAM1/game.cpp
+iostream
+-
+fstream
+-
+vector
+-
+SFML/Graphics.hpp
+-
+sstream
+-
+
+C:/Users/zhele/CLionProjects/projectMAM1/main.cpp
+SFML/Graphics.hpp
+-
+menu.cpp
+C:/Users/zhele/CLionProjects/projectMAM1/menu.cpp
+iostream
+-
+fstream
+-
+vector
+-
+
+C:/Users/zhele/CLionProjects/projectMAM1/menu.cpp
+SFML/Graphics.hpp
+-
+game.cpp
+C:/Users/zhele/CLionProjects/projectMAM1/game.cpp
+vector
+-
+iostream
+-
+

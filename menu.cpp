@@ -130,7 +130,7 @@ void selectLevel(RenderWindow& window){
         }
         if(Mouse::isButtonPressed(Mouse::Left)){
             for(int i = 0;i < 3;i++) if(isHere[i]){
-                //startGame(window, i);
+                startGame(window, i);
             }
             if(isHere[3]){
                 return;
