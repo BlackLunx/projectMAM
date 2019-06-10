@@ -49,6 +49,7 @@ void menu(RenderWindow &window){
         }
         if(Mouse::isButtonPressed(Mouse::Left)){
             if(currentPosition == 1){
+                sleep(seconds(0.1));
                 selectLevel(window);
                 //startGame(window);
             }
@@ -130,6 +131,7 @@ void selectLevel(RenderWindow& window){
         }
         if(Mouse::isButtonPressed(Mouse::Left)){
             for(int i = 0;i < 3;i++) if(isHere[i]){
+                sleep(seconds(0.1));
                 startGame(window, i);
             }
             if(isHere[3]){
