@@ -1,0 +1,3 @@
+C:/Users/zhele/CLionProjects/projectMAM1/cmake-build-release/CMakeFiles/projectMAM.dir
+C:/Users/zhele/CLionProjects/projectMAM1/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/zhele/CLionProjects/projectMAM1/cmake-build-release/CMakeFiles/rebuild_cache.dir
