@@ -12,576 +12,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="842318fc-213c-43cc-b54c-42c0e7521cfa" name="Default Changelist" comment="Added levels">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/blackElement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/crossElement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/empty5x5new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/field30x30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/whiteElement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectMAM.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectMAM.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectMAM.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectMAM.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectMAM.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectMAM.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectMAM.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectMAM.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectMAM.dir/linklibs.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectMAM.dir/objects.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectMAM.dir/objects1.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectMAM.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/backFirst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/backSecond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/cursor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/easyFirst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/easySecond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/exitfirst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/exitsecond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/hardFirst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/hardSecond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/levelMenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/mainpicture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/mediumFirst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/mediumSecond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/newgamefirst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Images/newgamesecond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CRT_fp10.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CRT_fp8.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CRT_glob.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CRT_noglob.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/binmode.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/cmake/SFML/SFMLConfig.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/cmake/SFML/SFMLConfigDependencies.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/cmake/SFML/SFMLConfigVersion.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/cmake/SFML/SFMLSharedTargets-debug.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/cmake/SFML/SFMLSharedTargets-release.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/cmake/SFML/SFMLSharedTargets.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/cmake/SFML/SFMLStaticTargets-debug.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/cmake/SFML/SFMLStaticTargets-release.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/cmake/SFML/SFMLStaticTargets.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/crt1.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/crt1u.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/crt2.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/crt2u.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/crtbegin.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/crtend.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/dllcrt1.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/dllcrt2.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/gcrt0.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/gcrt1.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/gcrt2.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/ldscripts/i386pe.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/ldscripts/i386pe.xa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/ldscripts/i386pe.xbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/ldscripts/i386pe.xe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/ldscripts/i386pe.xn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/ldscripts/i386pe.xr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/ldscripts/i386pe.xu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libFLAC.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libaclui.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libactiveds.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libadsldpc.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libadvapi32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libamstrmid.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libapcups.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libatomic-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libauthz.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libavicap32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libavifil32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libavrt.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libbcrypt.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libbootvid.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libbrowcli.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libbthprops.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcabinet.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcap.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcfgmgr32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcharset.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libclasspnp.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libclfsw32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libclusapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcmutil.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcomctl32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcomdlg32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libconnect.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcredui.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcrtdll.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcrypt32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcryptnet.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcryptsp.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcryptxml.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libcscapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libctl3d32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd2d1.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3d11.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3d8.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3d9.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler_33.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler_34.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler_35.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler_36.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler_37.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler_38.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler_39.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler_40.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler_41.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler_42.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler_43.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler_46.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcompiler_47.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcsx_46.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcsxd.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dcsxd_43.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dim.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3drm.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx10.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx10_33.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx10_34.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx10_35.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx10_36.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx10_37.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx10_38.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx10_39.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx10_40.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx10_41.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx10_42.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx10_43.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx11.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx11_42.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx11_43.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx8d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_24.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_25.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_26.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_27.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_28.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_29.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_30.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_31.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_33.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_34.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_35.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_36.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_37.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_38.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_39.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_40.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_41.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_42.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9_43.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dx9d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libd3dxof.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdavclnt.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdavhlpr.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdbgeng.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdbghelp.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libddraw.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdelayimp.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdevmgr.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdevobj.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdevrtl.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdfscli.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdhcpcsvc.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdhcpcsvc6.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdhcpsapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdinput.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdinput8.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdlcapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdmoguids.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdnsapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdplayx.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdpnaddr.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdpnet.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdpnlobby.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdpvoice.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdsetup.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdsound.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdsrole.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdssec.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdwmapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdwrite.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdxapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdxerr8.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdxerr9.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdxgi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdxguid.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libdxva2.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libeappcfg.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libeappgnui.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libeapphost.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libeappprxy.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libelscore.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libesent.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libevr.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libfaultrep.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libfreetype.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libfwpuclnt.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgcc_s.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgcc_s_dw2-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgdi32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgdiplus.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libglaux.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libglu32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libglut.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libglut32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgmon.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgomp-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgpapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgpedit.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgpprefcl.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgpscript.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgptext.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libhal.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libhid.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libhidclass.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libhidparse.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libhttpapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libicmui.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libiconv.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libigmpagnt.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libimagehlp.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libimm32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libiphlpapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libiscsidsc.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libkernel32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libks.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libksguid.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libksproxy.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libksuser.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libktmw32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/liblargeint.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/liblocationapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/liblogoncli.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/liblz32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libm.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmapi32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmcd.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmf.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmfcuia32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmfplat.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmfuuid.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmgmtapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmingw32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmingwex.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmingwthrd.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmoldname.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmpr.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmprapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmqrt.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsacm32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmscms.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsctf.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsctfmonitor.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsdmo.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsdrm.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmshtml.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmshtmled.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsimg32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmstask.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsvcp120_app.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsvcp60.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsvcr100.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsvcr110.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsvcr120.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsvcr120_app.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsvcr120d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsvcr80.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsvcr90.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsvcr90d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsvcrt-os.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsvcrt.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmsvfw32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libmswsock.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libncrypt.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libnddeapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libndfapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libndis.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libnetapi32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libnetjoin.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libnetutils.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libnewdev.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libnormaliz.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libntdll.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libntdsapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libntmsapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libntoskrnl.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libodbc32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libodbccp32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libogg.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libole32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/liboleacc.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/liboleaut32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libolecli32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/liboledlg.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libolepro32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libolesvr32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libolethk32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libopenal32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libopengl32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libp2p.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libp2pcollab.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libp2pgraph.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libpcwum.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libpdh.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libpdhui.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libpenwin32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libpkpd32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libportabledeviceguids.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libpowrprof.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libpsapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libpthread.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libpthread.dll.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libquadmath-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libquartz.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libqutil.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libqwave.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/librapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/librasapi32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/librasdlg.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libresutil.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/librpcdce4.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/librpcdiag.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/librpchttp.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/librpcns4.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/librpcrt4.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/librstrmgr.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/librtm.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/librtutils.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libruntimeobject.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsamcli.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libschannel.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libschedcli.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libscrnsave.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libscrnsavw.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libscsiport.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsecur32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsecurity.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsensorsapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsetupapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-audio-d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-audio-s-d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-audio-s.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-audio.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-graphics-d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-graphics-s-d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-graphics-s.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-graphics.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-main-d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-main.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-network-d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-network-s-d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-network-s.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-network.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-system-d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-system-s-d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-system-s.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-system.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-window-d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-window-s-d.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-window-s.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsfml-window.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libshell32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libshfolder.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libshlwapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libslc.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libslcext.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libslwga.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsnmpapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libspoolss.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsrvcli.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libssp-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsspicli.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libstdc++-6.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libstrmiids.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsvrapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsxs.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libsynchronization.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libt2embed.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libtapi32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libtaskschd.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libtbs.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libtdh.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libtdi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libtxfw32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libucrtbase.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/liburl.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/liburlmon.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libusbcamd.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libusbcamd2.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libusbd.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libusbport.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libuser32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libuserenv.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libusp10.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libuuid.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libuxtheme.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libvdmdbg.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libversion.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libvfw32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libvideoprt.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libvirtdisk.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libvorbis.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libvorbisenc.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libvorbisfile.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libvss_ps.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libvssapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwbemuuid.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwdsclient.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwdsclientapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwdscore.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwdscsl.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwdsimage.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwdstptc.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwdsupgcompl.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwdsutil.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwecapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwer.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwevtapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwevtfwd.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwiadss.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwin32k.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwin32spl.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwindowsapp.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwindowscodecs.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwinhttp.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwininet.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwinmm.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwinpthread-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwinpthread.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwinpthread.dll.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwinscard.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwinspool.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwinstrm.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwintrust.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwinusb.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwkscli.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwlanapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwlanui.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwlanutil.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwldap32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwmcodecdspuuid.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwmilib.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwow32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libws2_32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwsdapi.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwsnmp32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwsock32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwst.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libwtsapi32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libx3daudio.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libx3daudio1_2.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libx3daudio1_3.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libx3daudio1_4.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libx3daudio1_5.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libx3daudio1_6.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libx3daudio1_7.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libx3daudiod1_7.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxapofx.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxapofx1_0.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxapofx1_1.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxapofx1_2.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxapofx1_3.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxapofx1_4.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxapofx1_5.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxapofxd1_5.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxaudio2_8.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxinput.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxinput1_1.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxinput1_2.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxinput1_3.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxinput1_4.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libxinput9_1_0.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libz.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lib/txtmode.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/projectMAM.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/projectMAM.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.14.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.14.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.14.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.14.3/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projectMAM.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projectMAM.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projectMAM.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projectMAM.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projectMAM.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projectMAM.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projectMAM.dir/linklibs.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projectMAM.dir/objects1.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projectMAM.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/backFirst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/backSecond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/cursor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/easyFirst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/easySecond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/exitfirst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/exitsecond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/hardFirst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/hardSecond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/levelMenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/mainpicture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/mediumFirst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/mediumSecond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/newgamefirst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Images/newgamesecond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/projectMAM.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/projectMAM.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/menu.cpp" afterDir="false" />
+    <list default="true" id="842318fc-213c-43cc-b54c-42c0e7521cfa" name="Default Changelist" comment="END v2">
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectMAM.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -605,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
+            <state relative-caret-position="32">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
@@ -614,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="150" column="36" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="36" />
+            <state relative-caret-position="2128">
+              <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
               <folding>
                 <element signature="e#38#66#0" expanded="true" />
               </folding>
@@ -627,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -635,28 +68,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="153" column="32" selection-start-line="153" selection-start-column="32" selection-end-line="153" selection-end-column="32" />
+            <state relative-caret-position="144">
+              <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#94#106#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Images/crossElement.png">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Images/backSecond.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Images/blackElement.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Images/field30x30.png">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Images/numbers.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -730,7 +157,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug/Images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
@@ -789,7 +216,9 @@
       <workItem from="1559900559904" duration="49000" />
       <workItem from="1560106229291" duration="953000" />
       <workItem from="1560108076221" duration="601000" />
-      <workItem from="1560191254589" duration="5701000" />
+      <workItem from="1560191254589" duration="10779000" />
+      <workItem from="1560208280016" duration="421000" />
+      <workItem from="1560250617171" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="New Module">
       <created>1559507064638</created>
@@ -868,31 +297,51 @@
       <option name="project" value="LOCAL" />
       <updated>1559893256158</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added levels">
+      <created>1560197163598</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560197163598</updated>
+    </task>
+    <task id="LOCAL-00013" summary="END">
+      <created>1560200976193</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560200976193</updated>
+    </task>
+    <task id="LOCAL-00014" summary="END v2">
+      <created>1560208677190</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560208677190</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39848000" />
+    <option name="totallyTimeSpent" value="45443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31694403" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3267776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19312602" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.19312602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49848714" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.049099836" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49848714" weight="0.049099836" />
       <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -934,7 +383,9 @@
     <MESSAGE value="Updated menu" />
     <MESSAGE value="Added levels + gr" />
     <MESSAGE value="Added levels" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added levels" />
+    <MESSAGE value="END" />
+    <MESSAGE value="END v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="END v2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
@@ -979,9 +430,6 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/Images/hardFirst.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake_modules/FindSFML.cmake">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/tests/easy/2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1004,9 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Images/backSecond.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/Images/backFirst.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1022,37 +467,48 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/Images/field30x30.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Images/numbers.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake_modules/FindSFML.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
+        <state relative-caret-position="32">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/menu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="150" column="36" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="36" />
+        <state relative-caret-position="2128">
+          <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
           <folding>
             <element signature="e#38#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Images/backSecond.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Images/numbers.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/game.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="153" column="32" selection-start-line="153" selection-start-column="32" selection-end-line="153" selection-end-column="32" />
+        <state relative-caret-position="144">
+          <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#94#106#0" expanded="true" />
           </folding>
         </state>
       </provider>
